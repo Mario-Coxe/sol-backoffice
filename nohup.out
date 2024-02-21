@@ -1,0 +1,158 @@
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mysqli' (tried: /usr/lib/php/20210902/mysqli (/usr/lib/php/20210902/mysqli: cannot open shared object file: No such file or directory), /usr/lib/php/20210902/mysqli.so (/usr/lib/php/20210902/mysqli.so: undefined symbol: mysqlnd_global_stats)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_mysql' (tried: /usr/lib/php/20210902/pdo_mysql (/usr/lib/php/20210902/pdo_mysql: cannot open shared object file: No such file or directory), /usr/lib/php/20210902/pdo_mysql.so (/usr/lib/php/20210902/pdo_mysql.so: undefined symbol: pdo_parse_params)) in Unknown on line 0
+
+   WARN  PHP Warning: PHP Startup: Unable to load dynamic library 'mysqli' (tried: /usr/lib/php/20210902/mysqli (/usr/lib/php/20210902/mysqli: cannot open shared object file: No such file or directory), /usr/lib/php/20210902/mysqli.so (/usr/lib/php/20210902/mysqli.so: undefined symbol: mysqlnd_global_stats)) in Unknown on line 0.  
+
+   WARN  PHP Warning: PHP Startup: Unable to load dynamic library 'pdo_mysql' (tried: /usr/lib/php/20210902/pdo_mysql (/usr/lib/php/20210902/pdo_mysql: cannot open shared object file: No such file or directory), /usr/lib/php/20210902/pdo_mysql.so (/usr/lib/php/20210902/pdo_mysql.so: undefined symbol: pdo_parse_params)) in Unknown on line 0.  
+
+   INFO  Server running on [http://135.181.43.100:8181].  
+
+  Press Ctrl+C to stop the server
+
+  2024-02-02 22:01:37 ................................................... ~ 0s
+  2024-02-02 22:01:37 ................................................... ~ 2s
+  2024-02-02 22:01:40 ................................................... ~ 0s
+  2024-02-02 22:01:40 .................................................. ~ 13s
+  2024-02-02 22:01:53 ................................................... ~ 0s
+  2024-02-02 22:01:54 .................................................. ~ 15s
+  2024-02-02 22:02:10 ................................................... ~ 0s
+  2024-02-02 22:02:11 /css/filament/support/support.css?v=3.0.39.0 ...... ~ 0s
+  2024-02-02 22:02:10 /css/filament/forms/forms.css?v=3.0.39.0 .......... ~ 3s
+  2024-02-02 22:02:12 /images/logo-transparent.png ...................... ~ 1s
+  2024-02-02 22:02:11 /css/filament/filament/app.css?v=3.0.39.0 ......... ~ 2s
+  2024-02-02 22:02:15 /js/filament/forms/forms.js?v=3.0.39.0 ............ ~ 0s
+  2024-02-02 22:02:15 /js/filament/notifications/notifications.js?v=3.0.39.0  ~ 0s
+  2024-02-02 22:02:15 /js/filament/support/async-alpine.js?v=3.0.39.0 ... ~ 0s
+  2024-02-02 22:02:15 /js/filament/tables/tables.js?v=3.0.39.0 .......... ~ 0s
+  2024-02-02 22:02:17 /js/filament/filament/app.js?v=3.0.39.0 ........... ~ 0s
+  2024-02-02 22:02:18 ................................................... ~ 3s
+  2024-02-02 22:02:15 /js/filament/support/support.js?v=3.0.39.0 ........ ~ 6s
+  2024-02-02 22:02:15 /js/filament/filament/echo.js?v=3.0.39.0 .......... ~ 6s
+  2024-02-02 22:02:28 ................................................... ~ 6s
+  2024-02-02 22:02:34 .................................................. ~ 10s
+
+   INFO  Environment modified. Restarting server...  
+
+   WARN  PHP Warning: PHP Startup: Unable to load dynamic library 'mysqli' (tried: /usr/lib/php/20210902/mysqli (/usr/lib/php/20210902/mysqli: cannot open shared object file: No such file or directory), /usr/lib/php/20210902/mysqli.so (/usr/lib/php/20210902/mysqli.so: undefined symbol: mysqlnd_global_stats)) in Unknown on line 0.  
+
+   WARN  PHP Warning: PHP Startup: Unable to load dynamic library 'pdo_mysql' (tried: /usr/lib/php/20210902/pdo_mysql (/usr/lib/php/20210902/pdo_mysql: cannot open shared object file: No such file or directory), /usr/lib/php/20210902/pdo_mysql.so (/usr/lib/php/20210902/pdo_mysql.so: undefined symbol: pdo_parse_params)) in Unknown on line 0.  
+
+   INFO  Server running on [http://135.181.43.100:8181].  
+
+  Press Ctrl+C to stop the server
+
+
+   INFO  Environment modified. Restarting server...  
+
+   WARN  PHP Warning: PHP Startup: Unable to load dynamic library 'mysqli' (tried: /usr/lib/php/20210902/mysqli (/usr/lib/php/20210902/mysqli: cannot open shared object file: No such file or directory), /usr/lib/php/20210902/mysqli.so (/usr/lib/php/20210902/mysqli.so: undefined symbol: mysqlnd_global_stats)) in Unknown on line 0.  
+
+   WARN  PHP Warning: PHP Startup: Unable to load dynamic library 'pdo_mysql' (tried: /usr/lib/php/20210902/pdo_mysql (/usr/lib/php/20210902/pdo_mysql: cannot open shared object file: No such file or directory), /usr/lib/php/20210902/pdo_mysql.so (/usr/lib/php/20210902/pdo_mysql.so: undefined symbol: pdo_parse_params)) in Unknown on line 0.  
+
+   INFO  Server running on [http://135.181.43.100:8181].  
+
+  Press Ctrl+C to stop the server
+
+  2024-02-02 22:14:17 ................................................... ~ 0s
+  2024-02-02 22:14:18 ................................................... ~ 0s
+  2024-02-02 22:14:19 ................................................... ~ 2s
+  2024-02-02 22:14:22 ................................................... ~ 0s
+  2024-02-02 22:14:25 ................................................... ~ 0s
+  2024-02-02 22:14:26 ................................................... ~ 0s
+  2024-02-02 22:14:27 /css/filament/support/support.css?v=3.0.39.0 ...... ~ 0s
+  2024-02-02 22:14:26 /css/filament/forms/forms.css?v=3.0.39.0 .......... ~ 1s
+  2024-02-02 22:14:27 /css/filament/filament/app.css?v=3.0.39.0 ......... ~ 0s
+  2024-02-02 22:14:27 /images/logo-transparent.png ...................... ~ 0s
+  2024-02-02 22:14:27 /js/filament/forms/forms.js?v=3.0.39.0 ............ ~ 0s
+  2024-02-02 22:14:28 /js/filament/notifications/notifications.js?v=3.0.39.0  ~ 0s
+  2024-02-02 22:14:28 /js/filament/support/async-alpine.js?v=3.0.39.0 ... ~ 0s
+  2024-02-02 22:14:28 /js/filament/tables/tables.js?v=3.0.39.0 .......... ~ 0s
+  2024-02-02 22:14:28 /js/filament/support/support.js?v=3.0.39.0 ........ ~ 1s
+  2024-02-02 22:14:28 /js/filament/filament/echo.js?v=3.0.39.0 .......... ~ 1s
+  2024-02-02 22:14:28 /js/filament/filament/app.js?v=3.0.39.0 ........... ~ 3s
+  2024-02-02 22:14:38 .................................................. ~ 11s
+  2024-02-02 22:14:49 ................................................... ~ 2s
+  2024-02-02 22:15:02 ................................................... ~ 1s
+  2024-02-02 22:15:03 ................................................... ~ 5s
+  2024-02-02 22:15:08 /css/filament/support/support.css?v=3.0.39.0 ...... ~ 0s
+  2024-02-02 22:15:08 /css/filament/forms/forms.css?v=3.0.39.0 .......... ~ 1s
+  2024-02-02 22:15:08 /css/filament/filament/app.css?v=3.0.39.0 ......... ~ 1s
+  2024-02-02 22:15:10 /images/logo-transparent.png ...................... ~ 0s
+  2024-02-02 22:15:10 /js/filament/forms/forms.js?v=3.0.39.0 ............ ~ 0s
+  2024-02-02 22:15:11 /js/filament/notifications/notifications.js?v=3.0.39.0  ~ 0s
+  2024-02-02 22:15:11 /js/filament/support/async-alpine.js?v=3.0.39.0 ... ~ 0s
+  2024-02-02 22:15:11 /js/filament/tables/tables.js?v=3.0.39.0 .......... ~ 1s
+  2024-02-02 22:15:11 /js/filament/support/support.js?v=3.0.39.0 ........ ~ 1s
+  2024-02-02 22:15:12 /js/filament/filament/app.js?v=3.0.39.0 ........... ~ 0s
+  2024-02-02 22:15:12 /js/filament/filament/echo.js?v=3.0.39.0 .......... ~ 0s
+  2024-02-02 22:15:20 .................................................. ~ 27s
+  2024-02-02 22:15:47 ................................................... ~ 4s
+  2024-02-02 22:19:51 ................................................... ~ 0s
+  2024-02-02 22:19:52 /css/filament/forms/forms.css?v=3.0.39.0 .......... ~ 0s
+  2024-02-02 22:19:53 /images/logo-transparent.png ...................... ~ 0s
+  2024-02-02 22:19:53 /css/filament/filament/app.css?v=3.0.39.0 ......... ~ 0s
+  2024-02-02 22:19:53 /js/filament/forms/forms.js?v=3.0.39.0 ............ ~ 0s
+  2024-02-02 22:19:54 /js/filament/notifications/notifications.js?v=3.0.39.0  ~ 0s
+  2024-02-02 22:19:55 /js/filament/support/async-alpine.js?v=3.0.39.0 ... ~ 0s
+  2024-02-02 22:19:55 /js/filament/tables/tables.js?v=3.0.39.0 .......... ~ 0s
+  2024-02-02 22:19:56 /js/filament/filament/echo.js?v=3.0.39.0 .......... ~ 0s
+  2024-02-02 22:19:55 /js/filament/support/support.js?v=3.0.39.0 ........ ~ 2s
+  2024-02-02 22:19:57 /js/filament/filament/app.js?v=3.0.39.0 ........... ~ 0s
+  2024-02-02 22:19:53 /css/filament/support/support.css?v=3.0.39.0 ...... ~ 6s
+  2024-02-02 22:20:11 ................................................... ~ 5s
+  2024-02-02 22:20:18 ................................................... ~ 0s
+
+   INFO  Environment modified. Restarting server...  
+
+   WARN  PHP Warning: PHP Startup: Unable to load dynamic library 'mysqli' (tried: /usr/lib/php/20210902/mysqli (/usr/lib/php/20210902/mysqli: cannot open shared object file: No such file or directory), /usr/lib/php/20210902/mysqli.so (/usr/lib/php/20210902/mysqli.so: undefined symbol: mysqlnd_global_stats)) in Unknown on line 0.  
+
+   WARN  PHP Warning: PHP Startup: Unable to load dynamic library 'pdo_mysql' (tried: /usr/lib/php/20210902/pdo_mysql (/usr/lib/php/20210902/pdo_mysql: cannot open shared object file: No such file or directory), /usr/lib/php/20210902/pdo_mysql.so (/usr/lib/php/20210902/pdo_mysql.so: undefined symbol: pdo_parse_params)) in Unknown on line 0.  
+
+   INFO  Server running on [http://135.181.43.100:8181].  
+
+  Press Ctrl+C to stop the server
+
+  2024-02-02 22:34:58 ................................................... ~ 1s
+  2024-02-02 22:34:59 /css/filament/support/support.css?v=3.0.39.0 ...... ~ 0s
+  2024-02-02 22:34:59 /css/filament/forms/forms.css?v=3.0.39.0 .......... ~ 0s
+  2024-02-02 22:34:59 /css/filament/filament/app.css?v=3.0.39.0 ......... ~ 1s
+  2024-02-02 22:35:00 /images/logo-transparent.png ...................... ~ 0s
+  2024-02-02 22:35:00 /js/filament/forms/forms.js?v=3.0.39.0 ............ ~ 0s
+  2024-02-02 22:35:00 /js/filament/notifications/notifications.js?v=3.0.39.0  ~ 0s
+  2024-02-02 22:35:00 /js/filament/support/async-alpine.js?v=3.0.39.0 ... ~ 0s
+  2024-02-02 22:35:01 /js/filament/tables/tables.js?v=3.0.39.0 .......... ~ 0s
+  2024-02-02 22:35:01 /js/filament/filament/app.js?v=3.0.39.0 ........... ~ 0s
+  2024-02-02 22:35:01 /js/filament/support/support.js?v=3.0.39.0 ........ ~ 0s
+  2024-02-02 22:35:01 /js/filament/filament/echo.js?v=3.0.39.0 .......... ~ 0s
+  2024-02-02 22:37:03 ................................................... ~ 0s
+  2024-02-02 22:37:04 ................................................... ~ 0s
+  2024-02-02 22:37:04 ................................................... ~ 0s
+  2024-02-02 22:37:04 /css/filament/support/support.css?v=3.0.39.0 ...... ~ 0s
+  2024-02-02 22:37:04 /css/filament/forms/forms.css?v=3.0.39.0 .......... ~ 1s
+  2024-02-02 22:37:05 /js/filament/forms/forms.js?v=3.0.39.0 ............ ~ 0s
+  2024-02-02 22:37:05 /js/filament/notifications/notifications.js?v=3.0.39.0  ~ 0s
+  2024-02-02 22:37:05 /js/filament/support/async-alpine.js?v=3.0.39.0 ... ~ 0s
+  2024-02-02 22:37:04 /css/filament/filament/app.css?v=3.0.39.0 ......... ~ 1s
+  2024-02-02 22:37:05 /js/filament/tables/tables.js?v=3.0.39.0 .......... ~ 0s
+  2024-02-02 22:37:05 /js/filament/filament/app.js?v=3.0.39.0 ........... ~ 0s
+  2024-02-02 22:37:05 /js/filament/support/support.js?v=3.0.39.0 ........ ~ 0s
+  2024-02-02 22:37:05 /js/filament/filament/echo.js?v=3.0.39.0 .......... ~ 0s
+  2024-02-02 22:37:13 ................................................... ~ 0s
+  2024-02-02 22:37:14 /css/filament/support/support.css?v=3.0.39.0 ...... ~ 0s
+  2024-02-02 22:37:13 /css/filament/forms/forms.css?v=3.0.39.0 .......... ~ 1s
+  2024-02-02 22:37:14 /css/filament/filament/app.css?v=3.0.39.0 ......... ~ 0s
+  2024-02-02 22:37:14 /js/filament/forms/forms.js?v=3.0.39.0 ............ ~ 0s
+  2024-02-02 22:37:14 /js/filament/notifications/notifications.js?v=3.0.39.0  ~ 0s
+  2024-02-02 22:37:15 /js/filament/support/async-alpine.js?v=3.0.39.0 ... ~ 0s
+  2024-02-02 22:37:15 /js/filament/tables/tables.js?v=3.0.39.0 .......... ~ 0s
+  2024-02-02 22:37:15 /js/filament/filament/app.js?v=3.0.39.0 ........... ~ 0s
+  2024-02-02 22:37:14 /images/logo-transparent.png ...................... ~ 1s
+  2024-02-02 22:37:15 /js/filament/filament/echo.js?v=3.0.39.0 .......... ~ 0s
+  2024-02-02 22:37:15 /js/filament/support/support.js?v=3.0.39.0 ........ ~ 0s
+  2024-02-02 22:37:16 ................................................... ~ 0s
+  2024-02-02 22:37:16 /images/favicon.ico ............................... ~ 0s
+  2024-02-02 22:37:16 /js/filament/widgets/components/chart.js?v=3.0.39.0  ~ 1s
+  2024-02-02 22:37:22 ................................................... ~ 0s
+  2024-02-02 22:37:22 .................................................. ~ 31s
+  2024-02-02 22:38:13 ................................................... ~ 0s
+  2024-02-02 22:38:15 .................................................. ~ 49s
+  2024-02-02 22:39:23 ................................................... ~ 1s

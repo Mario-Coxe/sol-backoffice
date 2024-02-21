@@ -1,0 +1,1 @@
+php artisan migrate --path=/database/migrations/2024_02_19_154557_adeate_horarios_table.phpd_abbreviation_to_disciplinas_table.php
