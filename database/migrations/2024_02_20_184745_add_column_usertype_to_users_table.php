@@ -9,21 +9,20 @@ return new class extends Migration
     /**
      * Run the migrations.
      */
-    public function up()
+    public function up(): void
     {
-        Schema::table('disciplinas', function (Blueprint $table) {
-            $table->string('abbreviation')->notNull();
+        Schema::table('users', function (Blueprint $table) {
+            $table->string('user_type')->default('0')->after('email')->nullable()->default("client");
         });
     }
-
 
     /**
      * Reverse the migrations.
      */
     public function down(): void
     {
-        Schema::table('disciplinas', function (Blueprint $table) {
-            //
+        Schema::table('users', function (Blueprint $table) {
+            $table->dropColumn('user_type');
         });
     }
 };

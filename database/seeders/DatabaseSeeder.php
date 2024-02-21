@@ -18,13 +18,9 @@ class DatabaseSeeder extends Seeder
 
         \App\Models\User::factory()->create([
             'name' => 'Admin User',
-            'email' => 'admin@example.com',
+            'email' => 'admin@bancosol.com',
             'password' => '1234',
-
             'is_admin' => true
         ]);
-
-        $this->call(CountrySeeder::class);
-        $this->call(StateSeeder::class);
     }
 }

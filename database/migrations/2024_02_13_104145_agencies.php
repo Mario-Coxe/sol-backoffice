@@ -11,13 +11,13 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('anos_letivos', function (Blueprint $table) {
+        Schema::create('agencies', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('team_id')->constrained()->cascadeOnDelete();
-            $table->boolean('is_active')->default(1);
-            $table->string('name');
-            $table->date("start_date");
-            $table->date("end_date");
+            $table->string("name");
+            $table->string("longitude");
+            $table->string("latitude");
+            $table->foreignId('id_municipe')->constrained('municipes')->onDelete('cascade');
+            $table->enum('status', [0,1,2,4]);
             $table->timestamps();
         });
     }
@@ -27,6 +27,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('anos_letivos');
+        Schema::dropIfExists('agencies');
     }
 };
