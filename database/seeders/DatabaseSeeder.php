@@ -6,6 +6,8 @@ namespace Database\Seeders;
 
 use App\Models\Department;
 use Illuminate\Database\Seeder;
+use Database\Seeders\MunicipiosTableSeeder;
+use Database\Seeders\ProvinciasTableSeeder;
 
 class DatabaseSeeder extends Seeder
 {
@@ -22,5 +24,8 @@ class DatabaseSeeder extends Seeder
             'password' => '1234',
             'is_admin' => true
         ]);
+
+       // $this->call(MunicipiosTableSeeder::class);
+        $this->call(ProvinciasTableSeeder::class);
     }
 }

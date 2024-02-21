@@ -1,0 +1,232 @@
+<?php
+
+namespace Database\Seeders;
+
+use Illuminate\Database\Seeder;
+use App\Models\Municipios;
+
+class MunicipiosTableSeeder extends Seeder
+{
+    /**
+     * Run the database seeds.
+     *
+     * @return void
+     */
+    public function run()
+    {
+        $municipios = [
+            'Bengo' => [
+                'Ambriz',
+                'Bula Atumba',
+                'Dande',
+                'Nambuangongo',
+                'Pango Aluquém',
+                'Quibaxe',
+                'Úcua',
+            ],
+            'Benguela' => [
+                'Balombo',
+                'Baía Farta',
+                'Benguela',
+                'Bocoio',
+                'Caimbambo',
+                'Catumbela',
+                'Chongorói',
+                'Cubal',
+                'Ganda',
+                'Lobito',
+            ],
+            'Bié' => [
+                'Andulo',
+                'Camacupa',
+                'Catabola',
+                'Chinguar',
+                'Chitembo',
+                'Cuemba',
+                'Cunhinga',
+                'Nharea',
+                'Nharêa',
+            ],
+            'Cabinda' => [
+                'Belize',
+                'Buco-Zau',
+                'Cabinda',
+                'Cacongo',
+            ],
+            'Cuando Cubango' => [
+                'Calai',
+                'Cuangar',
+                'Cuchi',
+                'Cuito Cuanavale',
+                'Dirico',
+                'Longa',
+                'Mavinga',
+                'Menongue',
+                'Nancova',
+                'Rivungo',
+            ],
+            'Cuanza Norte' => [
+                'Ambaca',
+                'Banga',
+                'Bolongongo',
+                'Cambambe',
+                'Cazengo',
+                'Golungo Alto',
+                'Gonguembo',
+                'Lucala',
+                'Quiculungo',
+                'Samba Caju',
+            ],
+            'Cuanza Sul' => [
+                'Amboim',
+                'Cassongue',
+                'Conda',
+                'Ebo',
+                'Libolo',
+                'Mussende',
+                'Quibala',
+                'Quilenda',
+                'Seles',
+                'Sumbe',
+                'Waku Kungo',
+            ],
+            'Cunene' => [
+                'Cahama',
+                'Cuanhama',
+                'Curoca',
+                'Cuvelai',
+                'Namakunde',
+                'Ombadja',
+            ],
+            'Huambo' => [
+                'Bailundo',
+                'Caála',
+                'Ekunha',
+                'Huambo',
+                'Londuimbali',
+                'Longonjo',
+                'Mungo',
+                'Tchicala Tcholohanga',
+                'Tchindjenje',
+            ],
+            'Huíla' => [
+                'Caconda',
+                'Caluquembe',
+                'Chiange',
+                'Chibia',
+                'Chicomba',
+                'Chipindo',
+                'Humpata',
+                'Jamba',
+                'Lubango',
+                'Matala',
+                'Quilengues',
+            ],
+            'Luanda' => [
+                'Belas',
+                'Cacuaco',
+                'Cazenga',
+                'Ícolo e Bengo',
+                'Luanda',
+                'Quiçama',
+                'Talatona',
+                'Viana',
+            ],
+            'Lunda Norte' => [
+                'Cambulo',
+                'Capenda-Camulemba',
+                'Cacolo',
+                'Chitato',
+                'Cuango',
+                'Lóvua',
+                'Lubalo',
+                'Lucapa',
+                'Xá-Muteba',
+            ],
+            'Lunda Sul' => [
+                'Dala',
+                'Muconda',
+                'Saurimo',
+                'Cacolo',
+                'Cacuaco',
+                'Cambulo',
+                'Capenda-Camulemba',
+                'Chitato',
+                'Cuango',
+                'Lóvua',
+                'Lubalo',
+                'Lucapa',
+                'Xá-Muteba',
+            ],
+            'Malanje' => [
+                'Cacuso',
+                'Cangandala',
+                'Cacolo',
+                'Cacuso',
+                'Calandula',
+                'Camba',
+                'Malanje',
+                'Marimba',
+                'Massango',
+                'Mucari',
+                'Quela',
+            ],
+            'Moxico' => [
+                'Alto Zambeze',
+                'Bundas',
+                'Camanongue',
+                'Leúa',
+                'Luacano',
+                'Luchazes',
+                'Lumege-Cameia',
+                'Luacano',
+                'Luau',
+                'Luchazes',
+                'Luena',
+                'Lumeje',
+                'Moxico',
+                'Muacanhica',
+            ],
+            'Namibe' => [
+                'Bibala',
+                'Camucuio',
+                'Moçâmedes',
+                'Tômbua',
+                'Virei',
+            ],
+            'Uíge' => [
+                'Alto Cauale',
+                'Ambuíla',
+                'Bembe',
+                'Buengas',
+                'Bungo',
+                'Damba',
+                'Milunga',
+                'Mucaba',
+                'Negage',
+                'Puri',
+                'Quimbele',
+                'Quitexe',
+                'Sanza Pombo',
+                'Songo',
+            ],
+            'Zaire' => [
+                'Cuimba',
+                'Mabanza Congo',
+                'Noqui',
+                'Nzeto',
+                'Soyo',
+                'Tomboco',
+            ],
+        ];
+
+        foreach ($municipios as $provincia => $municipiosDaProvincia) {
+            foreach ($municipiosDaProvincia as $municipio) {
+                Municipios::create([
+                    'name' => $municipio,
+                    'province' => $provincia,
+                ]);
+            }
+        }
+    }
+}
