@@ -9,4 +9,9 @@ use Filament\Resources\Pages\CreateRecord;
 class CreateAgencias extends CreateRecord
 {
     protected static string $resource = AgenciasResource::class;
+
+    protected function getRedirectUrl(): string
+    {
+        return $this->getResource()::getUrl('index');
+    }
 }
