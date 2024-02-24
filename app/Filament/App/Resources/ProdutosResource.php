@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Filament\Resources;
+namespace App\Filament\App\Resources;
 
-use App\Filament\Resources\MunicipiosResource\Pages;
-use App\Filament\Resources\MunicipiosResource\RelationManagers;
-use App\Models\Munícipios;
+use App\Filament\App\Resources\ProdutosResource\Pages;
+use App\Filament\App\Resources\ProdutosResource\RelationManagers;
+use App\Models\Produtos;
 use Filament\Forms;
 use Filament\Forms\Form;
 use Filament\Resources\Resource;
@@ -12,35 +12,34 @@ use Filament\Tables;
 use Filament\Tables\Table;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
-use App\Models\Provincias;
+use App\Models\TipoDeProduto;
+use Filament\Forms\Components\Select;
 use Filament\Forms\Components\TextInput;
 use Filament\Tables\Columns\TextColumn;
 
-class MunicipiosResource extends Resource
+
+class ProdutosResource extends Resource
 {
-    protected static ?string $model = Munícipios::class;
+    protected static ?string $model = Produtos::class;
 
     protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
 
     public static function form(Form $form): Form
     {
-        $provinces = Provincias::pluck('name', 'id')->toArray();
+
+        $typeOfProduct = TipoDeProduto::pluck('name', 'id')->toArray();
+
 
         return $form
             ->schema([
-                Forms\Components\Section::make('')
-                    ->schema([
-                        Forms\Components\Section::make('')
-                            ->schema([
-                                Forms\Components\TextInput::make('name')
-                                    ->label("Nome")
-                                    ->required(),
-                                Forms\Components\Select::make('id_province')
-                                    ->label("Provicia")
-                                    ->options($provinces)
-                                    ->required(),
-                            ]),
-                    ]),
+                TextInput::make('name')
+                    ->required()
+                    ->maxLength(255),
+                Select::make('id_typeOfProdut')
+                    ->label("Tipo De Produto")
+                    ->multiple(false)
+                    ->preload()
+                    ->options($typeOfProduct),
             ]);
     }
 
@@ -51,8 +50,8 @@ class MunicipiosResource extends Resource
                 TextColumn::make('name')
                     ->label("Nome")
                     ->searchable(),
-                TextColumn::make('provincia.name')
-                    ->label("Provincia")
+                TextColumn::make('tipoProdutos.name')
+                    ->label("Tipo De Produto")
                     ->searchable(),
             ])
             ->filters([
@@ -81,9 +80,9 @@ class MunicipiosResource extends Resource
     public static function getPages(): array
     {
         return [
-            'index' => Pages\ListMunicipios::route('/'),
-            'create' => Pages\CreateMunicipios::route('/create'),
-            'edit' => Pages\EditMunicipios::route('/{record}/edit'),
+            'index' => Pages\ListProdutos::route('/'),
+            'create' => Pages\CreateProdutos::route('/create'),
+            'edit' => Pages\EditProdutos::route('/{record}/edit'),
         ];
     }
 }

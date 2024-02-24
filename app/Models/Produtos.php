@@ -13,11 +13,11 @@ class Produtos extends Model
     use HasFactory;
 
     protected $table = 'produts';
-    protected $fillable = ['name', 'id_typeOfProdut'];
+    protected $fillable = ['name', 'id_typeOfProdut', 'team_id'];
 
     public function team(): BelongsTo
     {
-        return $this->belongsTo(Team::class);
+        return $this->belongsTo(Team::class, 'team_id');
     }
     
     public function tipoProdutos(): BelongsTo

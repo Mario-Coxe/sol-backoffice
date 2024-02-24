@@ -10,6 +10,11 @@ class TipoDeProduto extends Model
 {
     use HasFactory;
     protected $table = 'type_of_products';
-    protected $fillable = ['name'];
+    protected $fillable = ['name', 'id_typeOfProdut'];
+
+    public function typeOfProduct()
+    {
+        return $this->belongsTo(TipoDeProduto::class, 'id_typeOfProdut');
+    }
 
 }

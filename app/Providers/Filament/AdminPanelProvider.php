@@ -42,7 +42,7 @@ class AdminPanelProvider extends PanelProvider
                     ->icon('heroicon-o-cog-6-tooth')
                     ->url('/app')
             ])
-            ->font('Inter')
+            ->font('Poppins')
             ->navigationGroups([
                 'Gestão de Professores',
                 'Gestão de Alunos',

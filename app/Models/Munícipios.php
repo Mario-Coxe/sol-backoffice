@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use App\Models\Provincias;
 
-class Municipios extends Model
+class Munícipios extends Model
 {
     use HasFactory;
     protected $table = 'municipes';

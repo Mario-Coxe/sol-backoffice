@@ -4,7 +4,7 @@ namespace App\Filament\Resources;
 
 use App\Filament\Resources\TeamUserResource\Pages;
 use App\Filament\Resources\TeamUserResource\RelationManagers;
-use App\Models\TeamUser;
+use App\Models\UsuáriosDasEquipes;
 use Filament\Forms;
 use Filament\Forms\Form;
 use Filament\Resources\Resource;
@@ -18,7 +18,7 @@ use App\Models\User;
 
 class TeamUserResource extends Resource
 {
-    protected static ?string $model = TeamUser::class;
+    protected static ?string $model = UsuáriosDasEquipes::class;
 
     protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
 

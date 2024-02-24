@@ -10,7 +10,7 @@ use Illuminate\Database\Eloquent\Relations\HasMany;
 use App\Models\User;
 use App\Models\Team;
 
-class TeamUser extends Model
+class UsuáriosDasEquipes extends Model
 {
     use HasFactory;
     protected $table = 'team_user';

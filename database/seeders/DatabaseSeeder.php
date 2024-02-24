@@ -22,6 +22,7 @@ class DatabaseSeeder extends Seeder
             'name' => 'Admin User',
             'email' => 'admin@bancosol.com',
             'password' => '1234',
+            "user_type" => "admin",
             'is_admin' => true
         ]);
 
